@@ -1,10 +1,12 @@
 RpresIntro
 ========================================================
-author: 
-date: 
+author: Yanfei Kang
+date: 1 May
+transition: linear
 
-First Slide
+Section 1
 ========================================================
+
 
 For more details on authoring R presentations click the
 **Help** button on the toolbar.
@@ -13,8 +15,9 @@ For more details on authoring R presentations click the
 - Bullet 2
 - Bullet 3
 
-Slide With Code
+Section 2: Slide With Code
 ========================================================
+
 
 
 ```r
@@ -31,7 +34,40 @@ summary(cars)
  Max.   :25.0   Max.   :120  
 ```
 
-Slide With Plot
+Slide With inline Code
+========================================================
+type: subsection
+
+`forecast()`
+
+Section 3: Slide With Plot
 ========================================================
 
-![plot of chunk unnamed-chunk-2](RpresIntro-figure/unnamed-chunk-2.png) 
+
+
+```r
+plot(cars)
+```
+
+<img src="RpresIntro-figure/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+
+Section 4: Slide With Two column
+========================================================
+
+Column1
+***
+column2
+
+
+Alert
+========================================================
+type: alert
+
+Conclusion
+========================================================
+incremental: true
+
+- easier and more flexible
+- visible within Rstudio
+- standalone HTML file
+- another option of Rpres: **R** package **slidify**

@@ -1,12 +1,12 @@
 {
-    "contents" : "RpresIntro\n========================================================\nauthor: \ndate: \n\nFirst Slide\n========================================================\n\nFor more details on authoring R presentations click the\n**Help** button on the toolbar.\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\nSlide With Code\n========================================================\n\n```{r}\nsummary(cars)\n```\n\nSlide With Plot\n========================================================\n\n```{r, echo=FALSE}\nplot(cars)\n```\n",
+    "contents" : "RpresIntro\n========================================================\nauthor: Yanfei Kang\ndate: 1 May\ntransition: linear\n\nSection 1\n========================================================\n\n\nFor more details on authoring R presentations click the\n**Help** button on the toolbar.\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\nSection 2: Slide With Code\n========================================================\n\n\n```{r}\nsummary(cars)\n```\n\nSlide With inline Code\n========================================================\ntype: subsection\n\n`forecast()`\n\nSection 3: Slide With Plot\n========================================================\n\n\n```{r, fig.align='center'}\nplot(cars)\n```\n\nSection 4: Slide With Two column\n========================================================\n\nColumn1\n***\ncolumn2\n\n\nAlert\n========================================================\ntype: alert\n\nConclusion\n========================================================\nincremental: true\n\n- easier and more flexible\n- visible within Rstudio\n- standalone HTML file\n- another option of Rpres: **R** package **slidify**",
     "created" : 1429405886194.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1465613179",
+    "hash" : "52321434",
     "id" : "3C5C367",
-    "lastKnownWriteTime" : 1429405885,
+    "lastKnownWriteTime" : 1429406488,
     "path" : "~/Desktop/RpresIntro/RpresIntro.Rpres",
     "project_path" : "RpresIntro.Rpres",
     "properties" : {
