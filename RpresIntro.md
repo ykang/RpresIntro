@@ -1,12 +1,11 @@
-An intro to Rpresentation
-========================================================
+An introduction to Rpresentation
+==============================================
 author: Yanfei Kang
-date: 1 May
+date: 8 May, 2015
 transition: linear
 
 Section 1
-========================================================
-
+==============================================
 
 For more details on authoring R presentations click the
 **Help** button on the toolbar.
@@ -16,7 +15,7 @@ For more details on authoring R presentations click the
 - Bullet 3
 
 Section 2: Slide With Code
-========================================================
+==============================================
 
 
 
@@ -35,13 +34,13 @@ summary(cars)
 ```
 
 Slide With inline Code
-========================================================
+==============================================
 type: subsection
 
 `forecast()`
 
 Section 3: Slide With Plot
-========================================================
+==============================================
 
 
 
@@ -52,7 +51,7 @@ plot(cars)
 <img src="RpresIntro-figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 Section 4: Slide With Two column
-========================================================
+==============================================
 
 Column1
 ***
@@ -60,11 +59,11 @@ column2
 
 
 Alert
-========================================================
+==============================================
 type: alert
 
 Conclusion
-========================================================
+==============================================
 incremental: true
 
 - easier and more flexible
